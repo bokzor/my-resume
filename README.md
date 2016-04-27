@@ -1,4 +1,4 @@
-## my-resume
+## My Resume
 
 My Resume. Template borrowed from [deedy](https://github.com/deedydas/Deedy-Resume). Thank you to [deedy](https://github.com/deedydas/Deedy-Resume) for this useful and beautiful template!
 
@@ -12,7 +12,7 @@ This template perfectly mets my expectations. It is very **sober**, allow **deta
 
 ## Dependencies
 
-Important notes: this template needs to be compiled with XeLaTeX. There should be a setting in your LaTeX distribution to change to XeLaTeX.
+Important notes: this template needs to be compiled with **XeLaTeX**. There should be a setting in your LaTeX distribution to change to **XeLaTeX**.
 
 ## License
 
