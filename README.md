@@ -1,7 +1,7 @@
 ## My Resume
 
 My Resume. Template borrowed from [deedy](https://github.com/deedydas/Deedy-Resume). Thank you to [deedy](https://github.com/deedydas/Deedy-Resume) for this useful and beautiful template!
-A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
+A **one-page**, **two asymmetric column** resume template.
 
 ## Motivation
 
