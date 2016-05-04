@@ -9,7 +9,7 @@ This template perfectly meets my expectations. It is very **sober**, allows **de
 
 ## Preview
 
-![alt tag](https://github.com/mxhduk/my-resume/blob/master/profil.jpg?raw=true)
+![alt tag](https://github.com/mxhduk/my-resume/blob/master/resume-preview.png?raw=true)
 
 ## Dependencies
 
