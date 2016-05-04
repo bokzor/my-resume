@@ -5,7 +5,7 @@ A **one-page**, **two asymmetric column** resume template.
 
 ## Motivation
 
-This template perfectly mets my expectations. It is very **sober**, allow **detail**, be a **single page**, and allow useful **LaTeX templating**.
+This template perfectly meets my expectations. It is very **sober**, allows **detail**, be a **single page**, and allows useful **LaTeX templating**.
 
 ## Preview
 
