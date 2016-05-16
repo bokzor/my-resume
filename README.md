@@ -10,7 +10,7 @@ This template perfectly meets my expectations. It is very **sober**, allows **de
 ## Preview
 
 <p align="center">
-    <img src="https://github.com/mxhduk/my-resume/blob/master/resume-preview.png?raw=true" width="250">
+    <a href="https://github.com/mxhduk/my-resume/raw/master/resume-maxime-hardy.pdf"><img src="https://github.com/mxhduk/my-resume/blob/master/resume-preview.png?raw=true" width="250"></a>
 </p>
 
 ## Dependencies
