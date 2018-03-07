@@ -1,285 +1,192 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Deedy CV/Resume
-%
-% Original author:
-% Debarghya Das (http://www.debarghyadas.com)
-% With extensive modifications by:
-% Vel (vel@latextemplates.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Important notes:
-% This template needs to be compiled with XeLaTeX.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[]{my-resume}
 
-\documentclass[letterpaper]{my-resume} 
-
-\usepackage{graphicx} % Picture
-\usepackage[absolute]{textpos} % Picture + QRCode
-\usepackage{verbatim} % Multiline comments 
-
-%\begin{comment}
-%\end{comment}
+\usepackage{graphicx}
+\usepackage[absolute]{textpos}
 
 \begin{document}
 
-\begin{textblock}{2.5}(5,2)
-\includegraphics[scale=0.75]{profil.jpg}
+\begin{textblock}{1}(19,2)
+\includegraphics[scale=0.60]{profil.jpg}
 \end{textblock}
 
-\begin{textblock}{2.5}(78,4)
-\includegraphics[scale=0.30]{qrcode.png}
+\begin{textblock}{1}(168,4)
+\includegraphics[scale=0.25]{qrcode.png}
 \end{textblock}
 
-%----------------------------------------------------------------------------------------
-%	HEADER SECTION
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LAST UPDATED DATE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
 
-\lastupdated % Print the Last Updated text at the top right
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \namesection{Maxime}{Hardy}{
-\urlstyle{same}\url{http://hardy.im} \\
-\textbf{Front-End Web Developer} \\
-\href{mailto:maxime@hardy.lu}{maxime@hardy.lu} | (+44) 07783 126066 \\
+\urlstyle{same}\href{http://hardy.im}{hardy.im} \textbullet{} \href{mailto:max@hardy.im}{maxime@hardy.im} \\
+\textbf{JavaScript Developer} \\
 }
 
-%----------------------------------------------------------------------------------------
-%	LEFT COLUMN
-%----------------------------------------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN ONE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{minipage}[t]{0.33\textwidth}
+\begin{minipage}[t]{0.33\textwidth} 
 
-%------------------------------------------------
-%	EDUCATION
-%------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Education} 
 
-\subsection{Stafford House School}
-
-\location{Expected Apr 2016 | London, UK}
-
-\descript{Business English and general English lessons}
-
-\sectionspace
-
-%------------------------------------------------
-
 \subsection{Paul Lambin Institute}
-
-\location{Expected June 2015 | Brussels, BE \\ Cum. GPA: 71,83\%}
-
-\descript{BSc with Distinction in information technology}
-
-\sectionspace
-
-%------------------------------------------------
+\location{June 2015 | Brussels, BE \\ Score: 71,83\%}
+\descript{BSc with Distinction in Information Technology}
+\sectionsep
 
 \subsection{Uni. libre de Bruxelles}
-
-\location{2010 - 2012 | Brussels, BE \\ Cum. GPA: N/A}
-
-\descript{Preparatory training in computer science}
-
-\sectionspace
-
-%------------------------------------------------
+\location{2010 - 2012 | Brussels, BE}
+\descript{Preparatory training in Computer Science}
+\sectionsep
 
 \subsection{Saint-Louis Institute}
-
-\location{Expected Dec 2010 | Brussels, BE \\ Cum. GPA: N/A}
-
+\location{Dec 2010 | Brussels, BE}
 \descript{Mathematics courses}
+\sectionsep
 
-\sectionspace
-
-%------------------------------------------------
-%	LINKS
-%------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-
-LinkedIn:// \href{https://www.linkedin.com/in/maximehardy}{\bf maximehardy} \\
 GitHub:// \href{https://github.com/mxhuk}{\bf mxhduk} \\
-Twitter:// \href{https://twitter.com/mxhduk}{\bf @mxhduk} \\
+GitLab:// \href{https://gitlab.com/hrdymx}{\bf hrdymx} \\
+LinkedIn:// \href{https://www.linkedin.com/in/maximehardy}{\bf maximehardy} \\
+Twitter:// \href{https://twitter.com/hardydotim}{\bf @hardydotim} \\
 Website:// \href{http://hardy.im}{\bf hardy.im} \\
-Mail:// \href{mailto:maxime@hardy.lu}{\bf maxime@hardy.lu}
-\begin{comment}
-Quora:// \href{https://www.quora.com/mxhduk}{\bf mxhduk}
-\end{comment}
+Mail:// \href{mailto:maxime@hardy.im}{maxime@hardy.im}
+\sectionsep
 
-\sectionspace
-
-%------------------------------------------------
-%	SKILLS
-%------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Skills}
-
-\location{Languages and Frameworks:}
-HTML5/CSS3 \textbullet{} Bootstrap \textbullet{} Javascript (ES5/ES6) \textbullet{} Node.js \textbullet{} Express \textbullet{} AngularJS \textbullet{} React \textbullet{} RESTful Web Services \textbullet{} Java \textbullet{} Python \\
-\location{Data, Tools and Processors:}
-SQL \textbullet{} MongoDB \textbullet{} Bower \textbullet{} Yeoman \textbullet{} Gulp \textbullet{} Sass \\
+\location{Languages/Frameworks/Libraries:}
+JavaScript ES6 \textbullet{} jQuery \textbullet{} Less \\
+Node.js \textbullet{} SCSS \textbullet{} React (and Redux) \textbullet{} LoopBack \textbullet{} Java \textbullet{} Python \\
+\location{Databases:}
+NoSQL | MongoDB \\
+SQL | MySQL \textbullet{} PostgreSQL \\
 \location{Others:}
-Photoshop \textbullet{} UNIX commands
+UNIX commands \textbullet{} Photoshop basic skills
+\sectionsep
 
-\sectionspace
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ADDITIONAL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%------------------------------------------------
-%	ADDITIONAL
-%------------------------------------------------
+\section{Bio}
+% \subsection{About}
+Belgian JavaScript developer based in London. Passionate about Web Development, Blockchain possibilities, electronic music creation and gifs (yes like .gif extension).
+Self-starting, team player, holding a BSc Honours degree in Information Technology. 
+Love learning, love teaching.
+\sectionsep
 
-\section{Additional}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COLUMN TWO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection{About}
-
-Brussels, Belgium \\
-9 August 1991 
-
-\sectionspace
-
-%------------------------------------------------
-
-\end{minipage}
+\end{minipage} 
 \hfill
-
-%----------------------------------------------------------------------------------------
-%	RIGHT COLUMN
-%----------------------------------------------------------------------------------------
-
 \begin{minipage}[t]{0.66\textwidth} 
 
-%------------------------------------------------
-%	EXPERIENCE
-%------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
 
+\runsubsection{Qubit}
+\descript{| Client/JavaScript Engineer}
+\location{Jun 2016 \textbullet{} Present | London, UK}
+Qubit is a SaaS personalisation company founded in 2010 by four Googlers working with over 300 leading brands.
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item JavaScript ES6 / React (Preact) / LESS / jQuery / Git
+\item Joining the QA team and reviewing the code written by other engineers.
+\item Taking part of the most ambitious personalisations for Qubit top clients.
+\item Onboarding new clients as well as new client engineers.
+\item Building mappers - creating bridge between existing data layer and Qubit standard data format.
+\item Assisting in the interview process for hiring new client engineers.
+\end{tightemize}
+\sectionsep
+
 \runsubsection{Agilos}
 \descript{| 4-month internship as a Jnr. Technical Consultant BI}
-
-\location{Expected Feb 2015 ? June 2015 | Brussels, BE}
+\location{Feb 2015 \textbullet{} June 2015 | Brussels, BE}
 Agilos is a market leader in innovative BI solutions in BeLux.
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightitemize}
-\item In-depth comparison between QlikView and QlikSense.
-\item Development of a QlikView and QlikSense App.
-\item Creation of a standard documentation for the implementation of a QlikSense App.
-\end{tightitemize}
-
-\sectionspace
-
-%------------------------------------------------
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Producing an in-depth comparison between QlikView and QlikSense.
+\item Developing a QlikView and QlikSense App.
+\item Creating a standard documentation for the implementation of a QlikSense App.
+\end{tightemize}
+\sectionsep
 
 \runsubsection{Worldline}
 \descript{| Short internship as an observer}
-
-\location{Expected Feb 2014 (1 week) | Brussels, BE}
+\location{Feb 2014 (1 week) | Brussels, BE}
 Worldline is specialised in connecting and securing payment transactions in EU.
-\begin{tightitemize}
-\item Understanding of corporate processes.
-\item Presentation of my conclusions in front of an audience (university).
-\end{tightitemize}
-
-\sectionspace
-
-%------------------------------------------------
+\sectionsep
 
 \runsubsection{Jules Bordet Institute}
 \descript{| Front-End dev, ba, training}
+\location{Feb 2012 \textbullet{} Apr 2012 | Brussels, BE}
+Development of a web platform for the urology department.
+\begin{tightemize}
+\item Analysing the business requirements.
+\item Taking charge of public relations, organising meetings and trainings.
+\end{tightemize}
+\sectionsep
 
-\location{Expected Feb 2012 ? Apr 2012 | Brussels, BE}
-Development of a web platform for the urology department. Purpose was to allow the user to add/edit content.
-\begin{tightitemize}
-\item Analysis of the business requirements.
-\item Front-End side and analysis of Back-End side.
-\item In charge of public relations, including organisation of meetings and trainings.
-
-\end{tightitemize}
-
-\sectionspace
-
-%------------------------------------------------
-%	PROJECTS
-%------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Projects}
 
-\begin{comment}
-
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Head Undergrad Research}
-
-\location{Jan 2014 ? Present | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which learns from large scale user preference feedback to plan robot trajectories in human environments. Publication submitted.
-
-\sectionspace
-
-\end{comment}
-
-%------------------------------------------------
-
 \runsubsection{Arte Scraper}
 \descript{| Front-End \& Back-End dev}
-
 \location{May 2016 | London, UK}
-Creation of a web scraper that gets some information from Arte.
-\begin{tightitemize}
-\item HTML, CSS (Bootstrap, SASS and Gulp), Angular.
-\item Node (NPM modules like cheerio, request, mongoose,...), Express, Mongo.
+Creation of a web scraper based on Arte website.
+\begin{tightemize}
+\item Node.js (Express.js, cheerio, mongoose,...), Angular, Mongo, SASS and Gulp
 \item Creation of a RESTful API / Using of Arte API.
-% \item Available on \href{https://github.com/mxhduk/arte-scraper}{GitHub}.
-\end{tightitemize}
-
-\sectionspace 
-
-%------------------------------------------------
+\end{tightemize}
+\sectionsep
 
 \runsubsection{musicShare}
 \descript{| Front-End \& Back-End dev}
 
-\location{Oct 2015 ? Dec 2015 | Brussels, BE}
+\location{Oct 2015 \textbullet{} Dec 2015 | Brussels, BE}
 Creation of a social network for music.
-\begin{tightitemize}
-\item Javascript ES6, React and Flux application architecture concept (through Alt.js library).
+\begin{tightemize}
+\item Javascript, React
 \item Use of AWS S3, SoundCloud and YouTube API.
-% \item Available on \href{https://github.com/bokzor/musicShare}{GitHub} but unfortunately never put into production.
-\end{tightitemize}
-
-\sectionspace
-
-%------------------------------------------------
-
-\runsubsection{Search Engine}
-\descript{| Front-End dev, advertising placement and SEO analysis}
-
-\location{May 2012 ? May 2013 | Brussels, BE}
-Creation of a search engine with more than 2M articles indexed (15K visitors a day).
-\begin{tightitemize}
-\item HTML, CSS, Javascript (jQuery), graphic model and logo (Photoshop).
-\item Front-End development, the advertising placement and SEO optimization.
-\item Creation of URL shortener to support advertising placement optimisation.
-\end{tightitemize}
-
-\sectionspace
-
-%------------------------------------------------
+\end{tightemize}
+\sectionsep
 
 \runsubsection{Video Library}
 \descript{| Front-End dev}
 
-\location{Nov 2011 ? Apr 2012 | Brussels, BE}
+\location{Nov 2011 \textbullet{} Apr 2012 | Brussels, BE}
 Creation of a website gathering indexed movies and TV shows (5K visitors a day).
-\begin{tightitemize}
+\begin{tightemize}
 \item HTML, CSS, Javascript (jQuery), graphic model and logo (Photoshop).
-\end{tightitemize}
-
-\sectionspace
-
-%------------------------------------------------
+\end{tightemize}
+\sectionsep
 
 \end{minipage} 
-
 \end{document}
